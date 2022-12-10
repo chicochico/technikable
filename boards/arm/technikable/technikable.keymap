@@ -31,7 +31,7 @@
 #define LSFT_LB &mt LSHFT LBKT
 #define RSFT_RB &mt RSHFT RBKT
 #define CTL_SPC &mt LCTRL SPACE
-#define SCRSHOT &kp LGUI(LSHFT(N5))
+#define SCRSHOT &kp LG(LS(N5))
 
 
 // Using layer taps on thumbs, having quick tap as well helps w/ repeating space/backspace
