@@ -83,7 +83,7 @@
             bindings = <
 &trans       &trans       &kp C_MUTE   &kp C_VOL_DN &kp C_VOL_UP &trans       &trans       &trans       &trans       &kp UNDER    &kp PLUS     &trans
 &kp TILDE    &kp EXCL     &kp AT       &kp HASH     &kp DLLR     &kp PRCNT    &kp CARET    &kp AMPS     &kp ASTRK    &kp LPAR     &kp RPAR     &kp PIPE
-&trans       &trans       &kp C_PP     &kp C_PREV   &kp C_NEXT   &trans       &trans       &kp LARW     &kp DARW     &kp UARW     &kp RARW     &trans
+&trans       &trans       &kp C_PP     &kp C_PREV   &kp C_NEXT   &trans       &kp LARW     &kp DARW     &kp UARW     &kp RARW     &trans       &trans
 #ifdef TBLE_DUAL_2U
                           &trans       &trans            &trans                    &trans               &trans       &trans
 #elif defined(TBLE_MIT)
@@ -98,7 +98,7 @@
             label = "raise";
             bindings = <
 &trans       &trans       &trans       &trans       &trans       &trans       &trans       &trans       &trans       &kp MINUS    &kp EQUAL    &trans
-&kp GRAVE    &kp N1       &kp N2       &kp N3       &kp N4       &kp N5       &kp N6       &kp N7       &kp N8       &kp N9       &kp N0       &kp SLASH
+&kp GRAVE    &kp N1       &kp N2       &kp N3       &kp N4       &kp N5       &kp N6       &kp N7       &kp N8       &kp N9       &kp N0       &kp BSLH
 &trans       &trans       &trans       &trans       &trans       &trans       &trans       &trans       &trans       &trans       &trans       &trans
 #ifdef TBLE_DUAL_2U
                           &trans       &trans            &trans                    &trans               &trans       &trans
