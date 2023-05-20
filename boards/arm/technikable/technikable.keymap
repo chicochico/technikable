@@ -51,7 +51,7 @@
             #binding-cells = <0>;
             bindings = <&kp ESC>, <&kp TILDE>;
             mods = <(MOD_LGUI|MOD_LSFT|MOD_RSFT)>;
-            keep-mods = <(MOD_LGUI)>
+            keep-mods = <(MOD_LGUI)>;
         };
     };
 };
