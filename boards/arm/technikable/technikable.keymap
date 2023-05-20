@@ -37,7 +37,7 @@
 // Using layer taps on thumbs, having quick tap as well helps w/ repeating space/backspace
 &lt {
     quick_tap_ms = <200>;
-    tapping_term_ms = <140>;
+    tapping_term_ms = <120>;
 };
 
 #define BT(n) BT_SEL n
@@ -71,7 +71,7 @@
  &kp TAB     &kp Q        &kp W        &kp E        &kp R        &kp T        &kp Y        &kp U        &kp I        &kp O        &kp P        &kp BKSP
  &kp ESC     &kp A        &kp S        &kp D        &kp F        &kp G        &kp H        &kp J        &kp K        &kp L        &kp SEMI     &kp QUOT
  LSFT_LB     &kp Z        &kp X        &kp C        &kp V        &kp B        &kp N        &kp M        &kp COMMA    &kp DOT      &kp FSLH     RSFT_RB
-                          &kp LALT     &kp LGUI     LOW_ENT      CTL_SPC      CTL_SPC      RAI_ENT      &mo MAGIC    &tog COLEMAK
+                          &kp LALT     &kp LGUI     LOW_ENT      CTL_SPC      CTL_SPC      RAI_ENT      &mo MAGIC    &kp RSHFT
             >;
         };
 
@@ -110,7 +110,7 @@
             bindings = <
 &bt BT_CLR   &bt BT(0)    &bt BT(1)    &bt BT(2)    &bt BT(3)    &bt BT(4)    &trans       &trans       &trans       &kp F11      &kp F12      &trans
 &trans       &kp F1       &kp F2       &kp F3       &kp F4       &kp F5       &kp F6       &kp F7       &kp F8       &kp F9       &kp F10      &trans
-&trans       &trans       &trans       &trans       &trans       &trans       &trans       &trans       &trans       &trans       &trans       &trans
+&trans       &trans       &trans       &tog COLEMAK &trans       &trans       &trans       &trans       &trans       &trans       &trans       &trans
                           &trans       &trans       &trans       &trans       &trans       &trans       &trans       &trans
             >;
         };
