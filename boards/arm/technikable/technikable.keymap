@@ -34,6 +34,7 @@
 #define SCRSHOT &kp LG(LS(N5))
 #define LALT_MP &mt LALT C_PREV
 #define LGUI_MN &mt LGUI C_NEXT
+#define LGUI_PP &mt LGUI C_PP
 
 
 // Using layer taps on thumbs, having quick tap as well helps w/ repeating space/backspace
