@@ -10,8 +10,14 @@ CONFIG_ARM_MPU=y
 # enable GPIO
 CONFIG_GPIO=y
 
+# Power management
+
+# enable deep sleep (disconnect from BT) 
 CONFIG_ZMK_SLEEP=y
-CONFIG_ZMK_IDLE_SLEEP_TIMEOUT=900000
+# in milliseconds (5 minutes)
+CONFIG_ZMK_IDLE_TIMEOUT=300000
+# in milliseconds (30 minutes)
+CONFIG_ZMK_IDLE_SLEEP_TIMEOUT=1800000
 
 CONFIG_USE_DT_CODE_PARTITION=y
 CONFIG_BUILD_OUTPUT_UF2=y
