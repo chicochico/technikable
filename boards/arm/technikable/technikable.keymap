@@ -35,7 +35,7 @@
 #define LALT_MP &mt LALT C_PREV
 #define LGUI_MN &mt LGUI C_NEXT
 #define LGUI_PP &mt LGUI C_PP
-#define MEH_MOD &mt LS(LC(LALT))
+#define MEH_MOD &kp LS(LC(LALT))
 #define MEH_ESC &mt MEH_MOD ESC
 
 
