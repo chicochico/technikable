@@ -53,7 +53,7 @@
             label = "TILDE_ESCAPE";
             #binding-cells = <0>;
             bindings = <&kp ESC>, <&kp TILDE>;
-            mods = <(MOD_LGUI|MOD_LSFT|MOD_RSFT)>;
+            mods = <(MOD_LGUI)>;
             keep-mods = <(MOD_LGUI)>;
         };
     };
