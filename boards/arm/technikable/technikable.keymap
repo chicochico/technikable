@@ -115,8 +115,8 @@ LSFT_LB      &kp Z        &kp X        &kp C        &kp V        &kp B        &k
         raise_layer {
             label = "raise";
             bindings = <
-&trans       &trans       &trans       &trans       &trans       &trans       &trans       &trans       &trans       &kp UNDER    &kp EQUAL    &trans
-&kp TILDE    &kp EXCL     &kp AT       &kp HASH     &kp DLLR     &kp PRCNT    &kp CARET    &kp AMPS     &kp ASTRK    &kp MINUS    &kp PLUS     &kp BSLH
+&trans       &trans       &trans       &trans       &trans       &trans       &trans       &trans       &trans       &kp UNDER    &kp PLUS     &trans
+&kp TILDE    &kp EXCL     &kp AT       &kp HASH     &kp DLLR     &kp PRCNT    &kp CARET    &kp AMPS     &kp ASTRK    &kp MINUS    &kp EQUAL    &kp BSLH
 &trans       &trans       &trans       &trans       &trans       &trans       &trans       &trans       &trans       &trans       &trans       &trans
                           &trans       &trans       &trans       &trans       &trans       &trans       &trans       &trans
             >;
