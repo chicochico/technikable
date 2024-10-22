@@ -9,7 +9,6 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/outputs.h>
 
-// #define QWERTY_BASE 1
 
 #define TBLE_ORTHO   true
 // #define TBLE_MIT     true
@@ -52,21 +51,21 @@
 
 / {
     chosen {
-       zmk,matrix_transform =
+       zmk,physical-layout =
 #ifdef TBLE_DUAL_2U
-                       &dual_2u_transform;
+                       &technikable_dual_2u_layout;
 #elif defined(TBLE_MIT)
-                       &mit_transform;
+                       &technikable_mit_layout;
 #else
-                       &ortho_transform;
+                       &technikable_ortho_layout;
 #endif
     };
 
     conditional_layers {
         compatible = "zmk,conditional-layers";
 	tri_layer {
-	    if-layers = <LOWER RAISE>;
-	    then-layer = <ADJUST>;
+	    if-layers = <NAV_L NUM_L>;
+	    then-layer = <SYM_L>;
 	};
     };
 
